@@ -1,0 +1,147 @@
+2021-08-08 20:42:01.752 +08:00 [INF] Loaded 5 extensions
+2021-08-08 20:42:05.189 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.302\
+2021-08-08 20:42:06.519 +08:00 [INF] Found Visual Studio v17.0.31521.260 [C:\Program Files\Microsoft Visual Studio\2022\Preview]
+2021-08-08 20:42:06.562 +08:00 [INF] Found Visual Studio v16.10.31515.178 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional]
+2021-08-08 20:42:11.857 +08:00 [INF] Initializing upgrade step Select an entrypoint
+2021-08-08 20:43:07.307 +08:00 [INF] Applying upgrade step Select an entrypoint
+2021-08-08 20:43:13.431 +08:00 [INF] Upgrade step Select an entrypoint applied successfully
+2021-08-08 20:43:21.716 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-08-08 20:43:21.860 +08:00 [INF] Initializing upgrade step Back up project
+2021-08-08 20:43:43.531 +08:00 [INF] Applying upgrade step Back up project
+2021-08-08 20:43:58.257 +08:00 [INF] Backing up C:\Users\fangh\source\repos\WPF-License-Manager\WPF-License-Manager to C:\Users\fangh\source\repos\WPF-License-Manager.backup\WPF-License-Manager
+2021-08-08 20:43:58.736 +08:00 [INF] Project backed up to C:\Users\fangh\source\repos\WPF-License-Manager.backup\WPF-License-Manager
+2021-08-08 20:43:58.737 +08:00 [INF] Upgrade step Back up project applied successfully
+2021-08-08 20:44:01.845 +08:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-08-08 20:44:27.422 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-08-08 20:44:36.098 +08:00 [INF] Saving upgrade progress file at C:\Users\fangh\source\repos\WPF-License-Manager\.upgrade-assistant
+2021-08-08 20:44:39.516 +08:00 [INF] Loaded 5 extensions
+2021-08-08 20:44:40.793 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.302\
+2021-08-08 20:44:42.113 +08:00 [INF] Found Visual Studio v17.0.31521.260 [C:\Program Files\Microsoft Visual Studio\2022\Preview]
+2021-08-08 20:44:42.129 +08:00 [INF] Found Visual Studio v16.10.31515.178 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional]
+2021-08-08 20:44:43.223 +08:00 [INF] Loading upgrade progress file at C:\Users\fangh\source\repos\WPF-License-Manager\.upgrade-assistant
+2021-08-08 20:44:43.329 +08:00 [INF] Initializing upgrade step Back up project
+2021-08-08 20:44:43.335 +08:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-08-08 20:44:56.505 +08:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-08-08 20:44:56.507 +08:00 [INF] Converting project file format with try-convert, version 0.9.232202
+2021-08-08 20:44:58.069 +08:00 [INF] [dotnet] C:\Users\fangh\source\repos\WPF-License-Manager\WPF-License-Manager\WPF-License-Manager.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
+2021-08-08 20:45:03.171 +08:00 [INF] [dotnet] Conversion complete!
+2021-08-08 20:45:05.038 +08:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-08-08 20:45:07.666 +08:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-08-08 20:45:09.439 +08:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-08-08 20:45:12.111 +08:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.237901) needs added
+2021-08-08 20:45:12.120 +08:00 [INF] Packages to be added: Operation { Item = Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.237901, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-08 20:45:25.582 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:45:25.585 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:45:25.587 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:45:25.587 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-08-08 20:45:25.598 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:45:25.606 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:46:41.897 +08:00 [INF] Skipping upgrade step Clean up NuGet package references
+2021-08-08 20:46:41.898 +08:00 [INF] Upgrade step Clean up NuGet package references skipped
+2021-08-08 20:46:43.819 +08:00 [INF] Initializing upgrade step Update TFM
+2021-08-08 20:46:43.829 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:46:43.835 +08:00 [INF] TFM needs updated to net5.0-windows
+2021-08-08 20:46:52.361 +08:00 [INF] Applying upgrade step Update TFM
+2021-08-08 20:46:52.363 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:47:04.936 +08:00 [INF] Updated TFM to net5.0-windows
+2021-08-08 20:47:04.938 +08:00 [INF] Upgrade step Update TFM applied successfully
+2021-08-08 20:47:08.071 +08:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-08-08 20:47:13.078 +08:00 [WRN] No version of Portable.Licensing found that supports ["net5.0-windows"]; leaving unchanged
+2021-08-08 20:47:16.962 +08:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.237901) needs added
+2021-08-08 20:47:17.376 +08:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-08-08 20:47:17.380 +08:00 [INF] Packages to be added: Operation { Item = Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.237901, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.Windows.Compatibility, Version=5.0.2, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-08 20:47:51.950 +08:00 [INF] Saving upgrade progress file at C:\Users\fangh\source\repos\WPF-License-Manager\.upgrade-assistant
+2021-08-08 20:49:35.390 +08:00 [INF] Loaded 5 extensions
+2021-08-08 20:49:36.096 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.302\
+2021-08-08 20:49:36.399 +08:00 [INF] Found Visual Studio v17.0.31521.260 [C:\Program Files\Microsoft Visual Studio\2022\Preview]
+2021-08-08 20:49:36.402 +08:00 [INF] Found Visual Studio v16.10.31515.178 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional]
+2021-08-08 20:49:37.730 +08:00 [INF] Loading upgrade progress file at C:\Users\fangh\source\repos\WPF-License-Manager\.upgrade-assistant
+2021-08-08 20:49:37.896 +08:00 [INF] Initializing upgrade step Back up project
+2021-08-08 20:49:37.900 +08:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-08-08 20:49:37.904 +08:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-08-08 20:49:39.959 +08:00 [WRN] No version of Portable.Licensing found that supports ["net5.0-windows"]; leaving unchanged
+2021-08-08 20:49:40.178 +08:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.237901) needs added
+2021-08-08 20:49:40.583 +08:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-08-08 20:49:40.588 +08:00 [INF] Packages to be added: Operation { Item = Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.237901, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.Windows.Compatibility, Version=5.0.2, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-08 20:50:10.136 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:50:10.139 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:50:10.140 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:50:10.140 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-08-08 20:50:10.149 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:50:10.150 +08:00 [INF] No projects need upgraded for selected entrypoint
+2021-08-08 20:50:10.150 +08:00 [INF] Initializing upgrade step Finalize upgrade
+2021-08-08 20:50:10.151 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:50:20.855 +08:00 [INF] Applying upgrade step Finalize upgrade
+2021-08-08 20:50:20.856 +08:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-08-08 20:50:23.832 +08:00 [INF] Upgrade has completed. Please review any changes.
+2021-08-08 20:50:23.838 +08:00 [INF] Deleting upgrade progress file at C:\Users\fangh\source\repos\WPF-License-Manager\.upgrade-assistant
+2021-08-08 20:50:36.182 +08:00 [INF] Loaded 5 extensions
+2021-08-08 20:50:36.841 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.302\
+2021-08-08 20:50:37.145 +08:00 [INF] Found Visual Studio v17.0.31521.260 [C:\Program Files\Microsoft Visual Studio\2022\Preview]
+2021-08-08 20:50:37.148 +08:00 [INF] Found Visual Studio v16.10.31515.178 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional]
+2021-08-08 20:50:38.578 +08:00 [INF] Initializing upgrade step Select an entrypoint
+2021-08-08 20:50:38.603 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:51:12.500 +08:00 [INF] Applying upgrade step Select an entrypoint
+2021-08-08 20:51:15.572 +08:00 [INF] Upgrade step Select an entrypoint applied successfully
+2021-08-08 20:51:18.665 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:51:18.668 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:51:18.669 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:51:18.669 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-08-08 20:51:18.710 +08:00 [INF] Initializing upgrade step Back up project
+2021-08-08 20:51:58.089 +08:00 [INF] Skipping upgrade step Back up project
+2021-08-08 20:51:58.089 +08:00 [INF] Upgrade step Back up project skipped
+2021-08-08 20:52:14.629 +08:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-08-08 20:52:28.905 +08:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-08-08 20:52:28.906 +08:00 [INF] Converting project file format with try-convert, version 0.9.232202
+2021-08-08 20:52:29.368 +08:00 [INF] [dotnet] C:\Users\fangh\source\repos\WPF-License-Manager\ClientSample\ClientSample.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
+2021-08-08 20:52:31.659 +08:00 [INF] [dotnet] Conversion complete!
+2021-08-08 20:52:31.932 +08:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-08-08 20:52:33.156 +08:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-08-08 20:52:40.616 +08:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-08-08 20:52:42.470 +08:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.237901) needs added
+2021-08-08 20:52:42.477 +08:00 [INF] Packages to be added: Operation { Item = Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.237901, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-08 20:52:47.768 +08:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-08-08 20:52:47.773 +08:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.237901
+2021-08-08 20:52:50.304 +08:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-08-08 20:52:52.627 +08:00 [INF] Initializing upgrade step Update TFM
+2021-08-08 20:52:52.629 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:52:52.629 +08:00 [INF] TFM needs updated to net5.0-windows
+2021-08-08 20:52:57.135 +08:00 [INF] Applying upgrade step Update TFM
+2021-08-08 20:52:57.137 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:52:58.768 +08:00 [INF] Updated TFM to net5.0-windows
+2021-08-08 20:52:58.768 +08:00 [INF] Upgrade step Update TFM applied successfully
+2021-08-08 20:53:00.908 +08:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-08-08 20:53:02.408 +08:00 [WRN] No version of Portable.Licensing found that supports ["net5.0-windows"]; leaving unchanged
+2021-08-08 20:53:02.889 +08:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-08-08 20:53:02.891 +08:00 [INF] Packages to be added: Operation { Item = Microsoft.Windows.Compatibility, Version=5.0.2, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-08 20:53:07.791 +08:00 [INF] Applying upgrade step Update NuGet Packages
+2021-08-08 20:53:07.791 +08:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-08-08 20:53:13.640 +08:00 [INF] Marking package System.Data.DataSetExtensions for removal because it appears to be a transitive dependency
+2021-08-08 20:53:13.866 +08:00 [WRN] No version of Portable.Licensing found that supports ["net5.0-windows"]; leaving unchanged
+2021-08-08 20:53:13.884 +08:00 [INF] Removing outdated package reference: System.Data.DataSetExtensions, Version=4.5.0
+2021-08-08 20:53:15.927 +08:00 [WRN] No version of Portable.Licensing found that supports ["net5.0-windows"]; leaving unchanged
+2021-08-08 20:53:15.942 +08:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-08-08 20:53:21.395 +08:00 [INF] Initializing upgrade step Add template files
+2021-08-08 20:53:21.401 +08:00 [INF] 0 expected template items needed
+2021-08-08 20:53:21.402 +08:00 [INF] Initializing upgrade step Upgrade app config files
+2021-08-08 20:53:21.437 +08:00 [INF] Found 0 app settings for upgrade: 
+2021-08-08 20:53:21.439 +08:00 [INF] Found 0 connection strings for upgrade: 
+2021-08-08 20:53:21.443 +08:00 [INF] Initializing upgrade step Update source code
+2021-08-08 20:53:22.831 +08:00 [INF] Initializing upgrade step Move to next project
+2021-08-08 20:53:30.451 +08:00 [INF] Applying upgrade step Move to next project
+2021-08-08 20:53:30.452 +08:00 [INF] Upgrade step Move to next project applied successfully
+2021-08-08 20:53:33.308 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:53:33.311 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:53:33.312 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:53:33.314 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:53:33.315 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:53:33.321 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:53:33.321 +08:00 [INF] Initializing upgrade step Finalize upgrade
+2021-08-08 20:53:33.322 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:53:33.325 +08:00 [INF] Recommending Windows TFM net5.0-windows because the project either has Windows-specific dependencies or builds to a WinExe
+2021-08-08 20:53:36.296 +08:00 [INF] Applying upgrade step Finalize upgrade
+2021-08-08 20:53:36.296 +08:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-08-08 20:53:37.911 +08:00 [INF] Upgrade has completed. Please review any changes.
+2021-08-08 20:53:37.915 +08:00 [INF] No state to save
