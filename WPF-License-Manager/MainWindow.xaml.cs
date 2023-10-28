@@ -71,6 +71,14 @@ namespace WPF_License_Manager
         public MainWindow()
         {
             InitializeComponent();
+            DatePickerExpiration.SelectedDate = DateTime.Now;
+            var lines = File.ReadAllLines("keys\\studio.txt");
+           
+            TextBoxPassword.Text = lines[0];
+            privateKey = lines[1];
+            publicKey = lines[2];          
+            this.TextBoxKey.Text = this.publicKey;
+
         }
 
         /// <summary>
@@ -110,6 +118,8 @@ namespace WPF_License_Manager
             this.publicKey = keyPair.ToPublicKeyString();
             this.TextBoxKey.Text = this.publicKey;
             ButtonCreateLic.IsEnabled = true;
+            //var lines = new string[] { TextBoxPassword.Text, this.privateKey, this.publicKey };
+            //File.WriteAllLines("keys\\studio.txt", lines);
         }
 
         /// <summary>
@@ -235,7 +245,7 @@ namespace WPF_License_Manager
                 this.TextBoxCustomerRo.Text = this.ulicense.Customer.Name;
                 this.TextBoxEMailRo.Text = this.ulicense.Customer.Email;
                 this.TextBoxUsersRo.Text = this.ulicense.Quantity.ToString(CultureInfo.InvariantCulture);
-                this.TextBoxAttributeNameRo.Text = "Software";
+                this.TextBoxAttributeNameRo.Text = "HardHash";
                 this.TextBoxAttributeValueRo.Text = this.ulicense.AdditionalAttributes.Get(this.TextBoxAttributeNameRo.Text);
                 this.CheckBoxSalesRo.IsChecked = this.ulicense.ProductFeatures.Get("Sales") == "True";
                 this.CheckBoxBillingRo.IsChecked = this.ulicense.ProductFeatures.Get("Billing") == "True";
